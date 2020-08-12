@@ -1,0 +1,5 @@
+{
+    "name": "Vidly",
+    "jwtPrivateKey": "Vidly-jwtPrivateKey",
+    "connectionString": "mongodb+srv://saransh:saransh@saransh-cluster0.i1dmi.mongodb.net/vidly-test?retryWrites=true&w=majority"
+}
