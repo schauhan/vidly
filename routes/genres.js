@@ -6,7 +6,18 @@ const router = express.Router();
 const mongoose = require('mongoose');
 const { Genre, validateGenre } = require('../models/genresModel');
 
-
+  
+/**
+ * @swagger
+ * /api/genres:
+ *   get:
+ *     description: Get all genres
+ *   post:
+ *     description: Add new genre by name
+ * /api/genres/id:
+ *   get:
+ *     description: Get genre by id
+ */
 router.get('/', async (req, res) => {
     const genresList = await Genre.find().select('name').sort('name');
     res.send(genresList);    
