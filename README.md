@@ -1,9 +1,9 @@
 PS. This documentation is WIP
 
 # vidly
-A video rental backend app made using Node.js 
+A video rental backend app made using Node.js. This is a sample app I made for test purposes. The app has a role based authenrication (user vs admin) and uses JSON Web Tokens(JWT) for auth. Passwords are salted and hashed before storage for added security. Data is stored on a cloud MongoDB instance. The app is also hosted on Heroku.
 
-Root url: http://localhost:3000/api/
+Local root url: http://localhost:3000/api/
 
 ## Movies ##
 
@@ -35,6 +35,8 @@ Returns json data about a rental, or `POST` a rental
 * **URL**
 
   /rentals/:id
+
+
 
 * **Methods:**
 
