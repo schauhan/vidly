@@ -17,9 +17,8 @@ Returns json data about movies. Perform CRUD operations on movies. `POST` `DELET
 - **Methods:**
 
   `GET` | `POST` | `DELETE` | `PUT`
-
-  Example `POST`
-  ![movies-post](https://github.com/schauhan/vidly/blob/master/images/readme-images/movies-post.png?raw=true)
+  
+  ![movies-post](https://github.com/schauhan/vidly/blob/master/images/readme-images/movies-post.png?raw=true "POST example for movies API")
 
 - **URL**
 
@@ -43,13 +42,11 @@ Returns json data about a rental, or `POST` a rental
 
   `POST` | `GET`
 
-  Example `GET`
 
-  ![rentals-get](https://github.com/schauhan/vidly/blob/master/images/readme-images/rental-get.png?raw=true)
+  ![rentals-get](https://github.com/schauhan/vidly/blob/master/images/readme-images/rental-get.png?raw=true "GET example for movies API")
 
-  Example `POST`
 
-  ![rentals-post](https://github.com/schauhan/vidly/blob/master/images/readme-images/rentals-post.png?raw=true)
+  ![rentals-post](https://github.com/schauhan/vidly/blob/master/images/readme-images/rentals-post.png?raw=true "POST example for movies API")
 
 ## Genres
 
@@ -86,7 +83,7 @@ Returns json data about genres. Only admin role can `DELETE` a genre
   `GET` | `POST`
   
   Example `POST`
-  ![users-post](https://github.com/schauhan/vidly/blob/master/images/readme-images/user-post.png?raw=true)
+  ![users-post](https://github.com/schauhan/vidly/blob/master/images/readme-images/user-post.png?raw=true "POST example for the users API")
 
 ## Auth
 
@@ -101,7 +98,7 @@ Returns json auth-token for a registered user. Needs the user id and password.
   `POST`
   
   Example `POST`
-  ![auth-post](https://github.com/schauhan/vidly/blob/master/images/readme-images/auth-post.png?raw=true)
+  ![auth-post](https://github.com/schauhan/vidly/blob/master/images/readme-images/auth-post.png?raw=true "POST example for auth API")
 
 ## Running Locally
 
