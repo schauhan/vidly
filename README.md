@@ -1,11 +1,13 @@
+PS. This documentation is WIP
+
 # vidly
-A video rental backend app made using Node.js
+A video rental backend app made using Node.js 
 
 Root url: http://localhost:3000/api/
 
 ## Movies ##
 
-Returns json data about a movies.
+Returns json data about movies. Perform CRUD operations on movies. `POST` `DELETE` and `PUT` operations require auth token.
 
 * **URL**
 
@@ -15,9 +17,20 @@ Returns json data about a movies.
 
   `GET` | `POST` | `DELETE` | `PUT`
 
+* **URL**
+
+  /movies/
+
+* **Methods:**
+
+  `GET`
+
+
 ## Rentals ##
 
-Returns json data about a rentals.
+Returns json data about a rental, or `POST` a rental
+
+**TODO: Add Auth**
 
 * **URL**
 
@@ -25,11 +38,21 @@ Returns json data about a rentals.
 
 * **Methods:**
 
-  `GET` | `POST` | `DELETE` | `PUT`
+  `GET`
 
+* **URL**
+
+  /rentals/
+
+* **Methods:**
+
+  `POST`
+  
 ## Genres ##
 
-Returns json data about a genres.
+Returns json data about genres. Only admin role can `DELETE` a genre
+
+**TODO: Add auth**
 
 * **URL**
 
@@ -38,6 +61,14 @@ Returns json data about a genres.
 * **Methods:**
 
   `GET` | `POST` | `DELETE` | `PUT`
+
+* **URL**
+
+  /genres/
+
+* **Methods:**
+
+  `GET`
 
 ## Users ##
 
